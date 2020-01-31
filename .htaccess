@@ -1,0 +1,21 @@
+### BEGIN CITYHOST ###
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.ohorona.kiev.ua$ [NC]
+RewriteRule ^(.*)$ https://ohorona.kiev.ua/$1 [R=301,L]
+### END CITYHOST ####
+
+
+### BEGIN CITYHOST ###
+RewriteEngine On
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://ohorona.kiev.ua/ [R=301,L]
+### END CITYHOST ###
+
+### BEGIN CITYHOST ###
+RewriteEngine On
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://ohorona.kiev.ua/ [R=301,L]
+### END CITYHOST ###
