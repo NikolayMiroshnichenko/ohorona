@@ -75,11 +75,11 @@ body {
 .main {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	height: 600px;
 	margin-bottom: 120px;
 }
 .main-item {
-	padding-top: 100px;
 	width: 400px;
 }
 .main-item__title {
@@ -103,6 +103,7 @@ body {
 	font-size: 14px;
 	line-height: 1.2;
 }
+.price-btn,
 .main-btn {
 	display: inline-block;
 	width: 160px;
@@ -113,6 +114,9 @@ body {
 	color: #ffffff;
 	border-radius: 20px;
 	cursor: pointer;
+}
+.price-btn {
+	margin: 20px 0 0 140px;
 }
 .main-btn__component {
 	position: relative;
@@ -146,15 +150,16 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 5	00;
 	cursor: pointer;
 	border-right: 2px solid #fff;
 }
 .navigations-btn p {
-	display: flex;
-	align-items: center;
+	color: #fff;
+	font-size: 14px;
+	height: 12px;
+}
+.navigations-btn img {
+	height: 24px;
 }
 .navigation-item {
 	position: relative;
@@ -450,7 +455,7 @@ body {
 .free-content__text {
 	font-size: 14px;
 	line-height: 1.4;
-	margin-bottom: 12px;
+	margin-bottom: 8px;
 }
 .free-content__text span {
 	color: #EE3737;
@@ -964,7 +969,7 @@ body {
 .menu {
 	position: absolute;
 	width: 70%;
-	height: 70vh;
+	height: 520px;
 	right: 50%;
 	top: 50%;
 	transform: translate(50%, -50%);
@@ -977,8 +982,8 @@ body {
 	position: absolute;
 	left: 60%;
 	top: 30%;
-	width: 321px;
-	height: 321px;
+	width: 260px;
+	height: 260px;
 	background-image: url(../img/security.png);
 	background-position: center;
 	background-repeat: no-repeat;
