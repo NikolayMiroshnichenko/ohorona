@@ -462,6 +462,8 @@
 	}
 	.popup-mobil__img {
 		display: block;
+		height: 200px;
+		object-fit: cover;
 	}
 	.popup-title {
 		padding: 40px 10px 30px 10px;

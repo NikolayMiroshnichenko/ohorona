@@ -36,6 +36,9 @@
 	margin-bottom: 20px;
 	padding: 0 60px;
 }
+.popup-title span {
+	color: #DE011A;
+}
 @media (max-width: 1169px) {
 	.firesatefy {
 		width: 100%;
