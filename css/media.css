@@ -149,9 +149,13 @@
 		width: 100%;
 	}
 	.price-menu-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		width: 33,3%;
+		height: 40px;
+		padding: 0 6px;
 		font-size: 10px;
-		white-space: nowrap;
 	}
 	.price-list {
 		flex-direction: column;
